@@ -84,10 +84,7 @@ color: #0000009c;
     color: #F74A59;
     
 }
-.container.hover #btn2 {
-    animation:outline 1s ease-out infinite;
-}
-    
+
 #reif {
     max-width: 1000px ;
     min-width: 300px ;
@@ -206,7 +203,7 @@ nav .close-icon{
 }
 
 
-@media(max-width: 800px){
+@media(max-width: 700px){
     .container{
         max-height: 10px;
     }
@@ -256,13 +253,8 @@ nav .close-icon{
         .logo3 img{
            max-width: 60%;
         }
-    .btn3:hover {
-            background-color: hsla(355, 54%, 27%, 0.800);
-            transition: 0.7s;
+        .btn.animate-btn{
+            animation:none;
         }
-    .btn3.animate-btn{
-            animation:animate-outline 1s ease-out infinite;
-        }
-
     }
 
