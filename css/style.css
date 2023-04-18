@@ -173,7 +173,7 @@ nav .menu-icon{
 }
 nav .close-icon{
     display: none;
-    font-size: 30px;
+    font-size: 50px;
     color:#6B2026;
    
 }
@@ -205,12 +205,7 @@ nav .close-icon{
     margin: 18px 0px 100px 0px;
 }
 
-/*--cor0: #6B2026;
---cor1: #79242B;
---cor2: #D13F4B;
---cor3: #EB4654;
---cor4: #F74A59; 
-*/
+
 @media(max-width: 800px){
     .container{
         max-height: 10px;
@@ -246,7 +241,7 @@ nav .close-icon{
             display: block;
             position: absolute;
             top: 46px;
-            right: 28px;
+            right: 50px;
         }
     .banner .banner-text h1{
             font-size: 50px;
